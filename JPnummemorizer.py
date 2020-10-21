@@ -5,7 +5,7 @@ import random
 #functions/subprorams
 
 def clear():
-    print("\n" * 1000)
+    print("\n" * 100)
 
 #main
 
@@ -103,36 +103,33 @@ while True:
             numwhole += "kyuu jyuu"
             numhiragana += "きゅうじゅう"
         numwhole += " "
-        if stringnum[3] == "0":
-            numwhole += "rei"
-            numhiragana += "れい"
-        elif stringnum[3] == "1":
-            numwhole += "rei"
-            numhiragana += "れい"
+        if stringnum[3] == "1":
+            numwhole += "icchi"
+            numhiragana += "いっち"
         elif stringnum[3] == "2":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "ni"
+            numhiragana += "に"
         elif stringnum[3] == "3":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "san"
+            numhiragana += "さん"
         elif stringnum[3] == "4":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "yon"
+            numhiragana += "よん"
         elif stringnum[3] == "5":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "go"
+            numhiragana += "ご"
         elif stringnum[3] == "6":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "roku"
+            numhiragana += "ろく"
         elif stringnum[3] == "7":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "nana"
+            numhiragana += "なな"
         elif stringnum[3] == "8":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "hacchi"
+            numhiragana += "はち"
         elif stringnum[3] == "9":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "kyuu"
+            numhiragana += "きゅう"
     elif len(stringnum) == 3:
         if stringnum[0] == "1":
             numwhole = "hyaku"
@@ -190,36 +187,33 @@ while True:
             numwhole += "kyuu jyuu"
             numhiragana += "きゅうじゅう"
         numwhole += " "
-        if stringnum[2] == "0":
-            numwhole += "rei"
-            numhiragana += "れい"
-        elif stringnum[2] == "1":
-            numwhole += "rei"
-            numhiragana += "れい"
+        if stringnum[2] == "1":
+            numwhole += "icchi"
+            numhiragana += "いっち"
         elif stringnum[2] == "2":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "ni"
+            numhiragana += "に"
         elif stringnum[2] == "3":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "san"
+            numhiragana += "さん"
         elif stringnum[2] == "4":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "yon"
+            numhiragana += "よん"
         elif stringnum[2] == "5":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "go"
+            numhiragana += "ご"
         elif stringnum[2] == "6":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "roku"
+            numhiragana += "ろく"
         elif stringnum[2] == "7":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "nana"
+            numhiragana += "なな"
         elif stringnum[2] == "8":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "hacchi"
+            numhiragana += "はっち"
         elif stringnum[2] == "9":
-            numwhole += "rei"
-            numhiragana += "れい"
+            numwhole += "kyuu"
+            numhiragana += "きゅう"
         numwhole += " "
     elif len(stringnum) == 2:
         if stringnum[0] == "1":
@@ -250,41 +244,35 @@ while True:
             numwhole = "kyuu jyuu"
             numhiragana = "きゅうじゅう"
         numwhole += " "
-        if stringnum[1] == "0":
-            numwhole = "rei"
-            numhiragana = "れい"
-        elif stringnum[1] == "1":
-            numwhole += "icchi"
-            numhiragana += "いっち"
+        if stringnum[1] == "1":
+            numwhole += "jyuu"
+            numhiragana += "じゅう"
         elif stringnum[1] == "2":
-            numwhole += "ni"
-            numhiragana += "に"
+            numwhole += "ni jyuu"
+            numhiragana += "にじゅう"
         elif stringnum[1] == "3":
-            numwhole += "san"
-            numhiragana += "さん"
+            numwhole += "san jyuu"
+            numhiragana += "さんじゅう"
         elif stringnum[1] == "4":
-            numwhole += "yon"
-            numhiragana += "よん"
+            numwhole += "yon jyuu"
+            numhiragana += "よんじゅう"
         elif stringnum[1] == "5":
-            numwhole += "go"
-            numhiragana += "ご"
+            numwhole += "go jyuu"
+            numhiragana += "ごじゅう"
         elif stringnum[1] == "6":
-            numwhole += "roku"
-            numhiragana += "ろく"
+            numwhole += "roku jyuu"
+            numhiragana += "ろくじゅう"
         elif stringnum[1] == "7":
-            numwhole += "nana"
-            numhiragana += "なな"
+            numwhole += "nana jyuu"
+            numhiragana += "ななじゅう"
         elif stringnum[1] == "8":
-            numwhole += "hachi"
-            numhiragana += "はっち"
+            numwhole += "hachi jyuu"
+            numhiragana += "はっちじゅう"
         elif stringnum[1] == "9":
-            numwhole += "kyuu"
-            numhiragana += "きゅう"
+            numwhole += "kyuu jyuu"
+            numhiragana += "きゅうじゅう"
     elif len(stringnum) == 1:
-        if stringnum[0] == "0":
-            numwhole = "rei"
-            numhiragana = "れい"
-        elif stringnum[0] == "1":
+        if stringnum[0] == "1":
             numwhole = "icchi"
             numhiragana = "いっち"
         elif stringnum[0] == "2":
@@ -311,6 +299,37 @@ while True:
         elif stringnum[0] == "9":
             numwhole = "kyuu"
             numhiragana = "きゅう"
+        if len(stringnum) == 0:
+            if stringnum[0] == "0":
+                numwhole = "rei"
+                numhiragana = "れい"
+            elif stringnum[0] == "1":
+                numwhole = "icchi"
+                numhiragana = "いっち"
+            elif stringnum[0] == "2":
+                numwhole = "ni"
+                numhiragana = "に"
+            elif stringnum[0] == "3":
+                numwhole = "san"
+                numhiragana = "さん"
+            elif stringnum[0] == "4":
+                numwhole = "yon"
+                numhiragana = "よん"
+            elif stringnum[0] == "5":
+                numwhole = "go"
+                numhiragana = "ご"
+            elif stringnum[0] == "6":
+                numwhole = "roku"
+                numhiragana = "ろく"
+            elif stringnum[0] == "7":
+                numwhole = "nana"
+                numhiragana = "なな"
+            elif stringnum[0] == "8":
+                numwhole = "hachi"
+                numhiragana = "はっち"
+            elif stringnum[0] == "9":
+                numwhole = "kyuu"
+                numhiragana = "きゅう"
     print(num)
     input()
     print(numwhole)
